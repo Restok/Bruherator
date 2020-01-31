@@ -4,15 +4,20 @@
 #bruhtton{
 color:white;
 background-color:red;
+padding: 50%;
 }
 </style>
 </head>
 <body>
-<button id = "bruhtton">Unsuspicious and safe to click</button>
 <script>
-bruh = document.getElementById("bruhtton")
-bruh.onClick("")
+function bruh(){
+  for(var x = 0; x<10; x++){
+    window.open("https://www.google.com/search?q=bruh"+x+"&rlz=1CAPQVW_enUS862&oq=bruh"+x+"&aqs=chrome..69i57j0l4j69i60l3.754j0j7&sourceid=chrome&ie=UTF-8&safe=active&ssui=on")
+  }
+}
 </script>
+<button id = "bruhtton" onclick = "bruh()">Unsuspicious and safe to click</button>
+
 </body>
 
 </html>
